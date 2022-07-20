@@ -1,0 +1,3 @@
+PDE-VOI             > 
+  - trn_ind         | samples : 1.0e+04 | time : 68894.5303
+  - tst_ind         | samples : 1.0e+04 | time : 68432.4071

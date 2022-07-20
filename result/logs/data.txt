@@ -1,0 +1,36 @@
+Ackley              > 
+  - trn_ind         | samples : 1.0e+04 | time :   0.0105
+  - tst_ind         | samples : 1.0e+04 | time :   0.0055
+Alpine              > 
+  - trn_ind         | samples : 1.0e+04 | time :   0.0048
+  - tst_ind         | samples : 1.0e+04 | time :   0.0038
+Dixon               > 
+  - trn_ind         | samples : 1.0e+04 | time :   0.0036
+  - tst_ind         | samples : 1.0e+04 | time :   0.0024
+Exponential         > 
+  - trn_ind         | samples : 1.0e+04 | time :   0.0029
+  - tst_ind         | samples : 1.0e+04 | time :   0.0028
+Grienwank           > 
+  - trn_ind         | samples : 1.0e+04 | time :   0.0037
+  - tst_ind         | samples : 1.0e+04 | time :   0.0038
+Michalewicz         > 
+  - trn_ind         | samples : 1.0e+04 | time :   0.0061
+  - tst_ind         | samples : 1.0e+04 | time :   0.0056
+Piston              > 
+  - trn_ind         | samples : 1.0e+04 | time :   0.0027
+  - tst_ind         | samples : 1.0e+04 | time :   0.0023
+Qing                > 
+  - trn_ind         | samples : 1.0e+04 | time :   0.0029
+  - tst_ind         | samples : 1.0e+04 | time :   0.0023
+Rastrigin           > 
+  - trn_ind         | samples : 1.0e+04 | time :   0.0036
+  - tst_ind         | samples : 1.0e+04 | time :   0.0037
+Rosenbrock          > 
+  - trn_ind         | samples : 1.0e+04 | time :   0.0033
+  - tst_ind         | samples : 1.0e+04 | time :   0.0025
+Schaffer            > 
+  - trn_ind         | samples : 1.0e+04 | time :   0.0038
+  - tst_ind         | samples : 1.0e+04 | time :   0.0033
+Schwefel            > 
+  - trn_ind         | samples : 1.0e+04 | time :   0.0036
+  - tst_ind         | samples : 1.0e+04 | time :   0.0032
