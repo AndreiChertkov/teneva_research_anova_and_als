@@ -1,0 +1,240 @@
+
+--------------------------------------------------------------------------
+Dimension       =        7  
+Samples train   =  1.0e+04  
+Samples test    =  1.0e+04  
+Grid size       =       10      
+TT-rank         =        5      
+ALS sweeps      =       50   
+ANO order       =        1  
+ANO noise       =  1.0e-10  
+--------------------------------------------------------------------------
+
+
+Ackley              > 
+  - ALS             | error (trn/tst) : 2.8e-04 / 2.6e-03 | time :   5.362
+  - ALS             | error (trn/tst) : 2.7e-04 / 3.0e-03 | time :   5.085
+  - ALS             | error (trn/tst) : 8.5e-01 / 1.2e+00 | time :   5.303
+  - ALS             | error (trn/tst) : 8.5e-01 / 1.2e+00 | time :   5.361
+  - ALS             | error (trn/tst) : 8.5e-01 / 1.2e+00 | time :   5.547
+  - ALS             | error (trn/tst) : 8.5e-01 / 1.2e+00 | time :   5.664
+  - ALS             | error (trn/tst) : 2.9e-04 / 3.7e-03 | time :   5.691
+  - ALS             | error (trn/tst) : 8.5e-01 / 1.2e+00 | time :   5.830
+  - ALS             | error (trn/tst) : 2.4e-04 / 1.7e-03 | time :   5.687
+  - ALS             | error (trn/tst) : 8.5e-01 / 1.2e+00 | time :   5.662
+  - ALS (* mean)    | error (trn/tst) : 5.1e-01 / 7.4e-01 | time :   5.519
+  - ANO             | error (trn/tst) : 1.3e-02 / 1.1e-02 | time :   0.006
+  - ANO-ALS         | error (trn/tst) : 2.6e-04 / 2.5e-03 | time :   5.704
+Alpine              > 
+  - ALS             | error (trn/tst) : 8.0e-01 / 1.9e+00 | time :   6.467
+  - ALS             | error (trn/tst) : 8.0e-01 / 1.7e+00 | time :   5.880
+  - ALS             | error (trn/tst) : 8.0e-01 / 1.9e+00 | time :   5.799
+  - ALS             | error (trn/tst) : 8.1e-01 / 1.9e+00 | time :   6.053
+  - ALS             | error (trn/tst) : 8.0e-01 / 1.8e+00 | time :   5.683
+  - ALS             | error (trn/tst) : 8.0e-01 / 1.8e+00 | time :   5.584
+  - ALS             | error (trn/tst) : 8.0e-01 / 1.8e+00 | time :   5.608
+  - ALS             | error (trn/tst) : 8.0e-01 / 1.7e+00 | time :   5.854
+  - ALS             | error (trn/tst) : 8.1e-01 / 1.7e+00 | time :   5.738
+  - ALS             | error (trn/tst) : 8.1e-01 / 1.9e+00 | time :   5.825
+  - ALS (* mean)    | error (trn/tst) : 8.0e-01 / 1.8e+00 | time :   5.849
+  - ANO             | error (trn/tst) : 2.1e-02 / 2.1e-02 | time :   0.006
+  - ANO-ALS         | error (trn/tst) : 1.5e-08 / 1.6e-07 | time :   2.237
+Dixon               > 
+  - ALS             | error (trn/tst) : 7.3e-01 / 3.2e+00 | time :   5.649
+  - ALS             | error (trn/tst) : 7.2e-01 / 2.9e+00 | time :   5.816
+  - ALS             | error (trn/tst) : 7.3e-01 / 3.6e+00 | time :   6.128
+  - ALS             | error (trn/tst) : 7.2e-01 / 2.7e+00 | time :   6.148
+  - ALS             | error (trn/tst) : 7.3e-01 / 3.3e+00 | time :   5.659
+  - ALS             | error (trn/tst) : 7.3e-01 / 3.2e+00 | time :   5.709
+  - ALS             | error (trn/tst) : 7.3e-01 / 2.9e+00 | time :   5.982
+  - ALS             | error (trn/tst) : 7.3e-01 / 4.0e+00 | time :   5.972
+  - ALS             | error (trn/tst) : 5.7e-09 / 6.5e-06 | time :   6.016
+  - ALS             | error (trn/tst) : 7.2e-01 / 2.7e+00 | time :   5.663
+  - ALS (* mean)    | error (trn/tst) : 6.5e-01 / 2.9e+00 | time :   5.874
+  - ANO             | error (trn/tst) : 4.7e-02 / 4.7e-02 | time :   0.006
+  - ANO-ALS         | error (trn/tst) : 3.0e-08 / 1.9e-06 | time :   5.611
+Exponential         > 
+  - ALS             | error (trn/tst) : 8.4e-10 / 1.4e-09 | time :   5.342
+  - ALS             | error (trn/tst) : 7.4e-01 / 2.8e+00 | time :   5.874
+  - ALS             | error (trn/tst) : 7.3e-01 / 1.9e+00 | time :   5.748
+  - ALS             | error (trn/tst) : 7.3e-01 / 2.1e+00 | time :   5.766
+  - ALS             | error (trn/tst) : 7.4e-01 / 2.2e+00 | time :   5.696
+  - ALS             | error (trn/tst) : 7.4e-01 / 2.4e+00 | time :   5.883
+  - ALS             | error (trn/tst) : 7.4e-01 / 2.2e+00 | time :   5.843
+  - ALS             | error (trn/tst) : 7.4e-01 / 2.5e+00 | time :   5.871
+  - ALS             | error (trn/tst) : 7.4e-01 / 2.3e+00 | time :   5.877
+  - ALS             | error (trn/tst) : 7.3e-01 / 2.3e+00 | time :   5.895
+  - ALS (* mean)    | error (trn/tst) : 6.6e-01 / 2.1e+00 | time :   5.780
+  - ANO             | error (trn/tst) : 1.3e-01 / 1.3e-01 | time :   0.006
+  - ANO-ALS         | error (trn/tst) : 5.2e-10 / 1.9e-09 | time :   1.398
+Grienwank           > 
+  - ALS             | error (trn/tst) : 7.9e-01 / 2.0e+00 | time :   5.667
+  - ALS             | error (trn/tst) : 7.9e-01 / 1.9e+00 | time :   5.764
+  - ALS             | error (trn/tst) : 7.9e-01 / 2.8e+00 | time :   5.827
+  - ALS             | error (trn/tst) : 7.9e-01 / 2.2e+00 | time :   5.845
+  - ALS             | error (trn/tst) : 1.1e-04 / 3.5e-04 | time :   5.792
+  - ALS             | error (trn/tst) : 7.9e-01 / 1.9e+00 | time :   5.770
+  - ALS             | error (trn/tst) : 7.9e-01 / 2.9e+00 | time :   5.847
+  - ALS             | error (trn/tst) : 7.9e-01 / 2.1e+00 | time :   5.637
+  - ALS             | error (trn/tst) : 7.9e-01 / 2.1e+00 | time :   5.624
+  - ALS             | error (trn/tst) : 7.9e-01 / 2.1e+00 | time :   5.632
+  - ALS (* mean)    | error (trn/tst) : 7.1e-01 / 2.0e+00 | time :   5.741
+  - ANO             | error (trn/tst) : 2.0e-02 / 2.0e-02 | time :   0.006
+  - ANO-ALS         | error (trn/tst) : 1.1e-04 / 3.9e-04 | time :   5.615
+Michalewicz         > 
+  - ALS             | error (trn/tst) : 6.6e-01 / 6.2e+00 | time :   5.586
+  - ALS             | error (trn/tst) : 6.7e-01 / 4.2e+00 | time :   5.564
+  - ALS             | error (trn/tst) : 6.6e-01 / 5.6e+00 | time :   5.572
+  - ALS             | error (trn/tst) : 6.6e-01 / 6.3e+00 | time :   5.618
+  - ALS             | error (trn/tst) : 6.6e-01 / 7.8e+00 | time :   5.522
+  - ALS             | error (trn/tst) : 6.6e-01 / 5.1e+00 | time :   5.580
+  - ALS             | error (trn/tst) : 6.6e-01 / 6.1e+00 | time :   5.624
+  - ALS             | error (trn/tst) : 6.7e-01 / 5.4e+00 | time :   5.690
+  - ALS             | error (trn/tst) : 6.6e-01 / 6.4e+00 | time :   5.892
+  - ALS             | error (trn/tst) : 6.6e-01 / 5.6e+00 | time :   5.832
+  - ALS (* mean)    | error (trn/tst) : 6.6e-01 / 5.9e+00 | time :   5.648
+  - ANO             | error (trn/tst) : 3.9e-02 / 4.0e-02 | time :   0.006
+  - ANO-ALS         | error (trn/tst) : 2.6e-08 / 2.7e-06 | time :   5.653
+Piston              > 
+  - ALS             | error (trn/tst) : 9.8e-04 / 1.5e-03 | time :   5.693
+  - ALS             | error (trn/tst) : 7.9e-01 / 1.9e+00 | time :   5.671
+  - ALS             | error (trn/tst) : 7.9e-01 / 2.0e+00 | time :   5.669
+  - ALS             | error (trn/tst) : 7.9e-01 / 1.6e+00 | time :   5.658
+  - ALS             | error (trn/tst) : 7.9e-01 / 1.8e+00 | time :   5.718
+  - ALS             | error (trn/tst) : 7.9e-01 / 1.9e+00 | time :   5.857
+  - ALS             | error (trn/tst) : 7.9e-01 / 1.8e+00 | time :   5.695
+  - ALS             | error (trn/tst) : 7.9e-01 / 1.9e+00 | time :   5.841
+  - ALS             | error (trn/tst) : 7.9e-01 / 1.7e+00 | time :   6.039
+  - ALS             | error (trn/tst) : 7.9e-01 / 1.7e+00 | time :   5.866
+  - ALS (* mean)    | error (trn/tst) : 7.1e-01 / 1.6e+00 | time :   5.771
+  - ANO             | error (trn/tst) : 9.3e-02 / 9.4e-02 | time :   0.006
+  - ANO-ALS         | error (trn/tst) : 9.6e-04 / 1.6e-03 | time :   6.141
+Qing                > 
+  - ALS             | error (trn/tst) : 7.3e-01 / 3.0e+00 | time :   6.217
+  - ALS             | error (trn/tst) : 7.4e-01 / 4.8e+00 | time :   6.239
+  - ALS             | error (trn/tst) : 7.4e-01 / 3.3e+00 | time :   6.090
+  - ALS             | error (trn/tst) : 7.4e-01 / 3.1e+00 | time :   6.140
+  - ALS             | error (trn/tst) : 7.3e-01 / 2.9e+00 | time :   5.888
+  - ALS             | error (trn/tst) : 7.4e-01 / 2.8e+00 | time :   6.020
+  - ALS             | error (trn/tst) : 7.4e-01 / 3.4e+00 | time :   5.988
+  - ALS             | error (trn/tst) : 7.4e-01 / 4.4e+00 | time :   5.985
+  - ALS             | error (trn/tst) : 7.4e-01 / 2.7e+00 | time :   5.944
+  - ALS             | error (trn/tst) : 7.4e-01 / 3.7e+00 | time :   5.783
+  - ALS (* mean)    | error (trn/tst) : 7.4e-01 / 3.4e+00 | time :   6.029
+  - ANO             | error (trn/tst) : 1.5e+01 / 1.4e+01 | time :   0.006
+  - ANO-ALS         | error (trn/tst) : 1.2e-08 / 5.7e-05 | time :   5.871
+Rastrigin           > 
+  - ALS             | error (trn/tst) : 8.4e-01 / 1.3e+00 | time :   6.002
+  - ALS             | error (trn/tst) : 8.4e-01 / 1.3e+00 | time :   6.241
+  - ALS             | error (trn/tst) : 8.4e-01 / 1.3e+00 | time :   6.039
+  - ALS             | error (trn/tst) : 8.4e-01 / 1.3e+00 | time :   6.087
+  - ALS             | error (trn/tst) : 8.4e-01 / 1.3e+00 | time :   6.193
+  - ALS             | error (trn/tst) : 8.4e-01 / 1.3e+00 | time :   6.238
+  - ALS             | error (trn/tst) : 8.4e-01 / 1.3e+00 | time :   6.331
+  - ALS             | error (trn/tst) : 8.4e-01 / 1.4e+00 | time :   6.142
+  - ALS             | error (trn/tst) : 8.4e-01 / 1.3e+00 | time :   6.135
+  - ALS             | error (trn/tst) : 8.4e-01 / 1.3e+00 | time :   6.045
+  - ALS (* mean)    | error (trn/tst) : 8.4e-01 / 1.3e+00 | time :   6.145
+  - ANO             | error (trn/tst) : 7.9e-03 / 8.1e-03 | time :   0.006
+  - ANO-ALS         | error (trn/tst) : 2.6e-09 / 2.1e-08 | time :   2.260
+Rosenbrock          > 
+  - ALS             | error (trn/tst) : 7.2e-01 / 5.2e+00 | time :   6.038
+  - ALS             | error (trn/tst) : 7.2e-01 / 3.8e+00 | time :   5.832
+  - ALS             | error (trn/tst) : 7.2e-01 / 3.5e+00 | time :   6.237
+  - ALS             | error (trn/tst) : 7.2e-01 / 4.1e+00 | time :   6.112
+  - ALS             | error (trn/tst) : 7.2e-01 / 3.6e+00 | time :   6.108
+  - ALS             | error (trn/tst) : 7.2e-01 / 5.6e+00 | time :   6.159
+  - ALS             | error (trn/tst) : 7.2e-01 / 5.4e+00 | time :   6.165
+  - ALS             | error (trn/tst) : 7.2e-01 / 2.6e+00 | time :   6.210
+  - ALS             | error (trn/tst) : 7.2e-01 / 5.7e+00 | time :   6.100
+  - ALS             | error (trn/tst) : 7.2e-01 / 3.7e+00 | time :   6.265
+  - ALS (* mean)    | error (trn/tst) : 7.2e-01 / 4.3e+00 | time :   6.123
+  - ANO             | error (trn/tst) : 2.0e-01 / 2.0e-01 | time :   0.006
+  - ANO-ALS         | error (trn/tst) : 1.1e-07 / 2.3e-05 | time :   6.253
+Schaffer            > 
+  - ALS             | error (trn/tst) : 8.5e-01 / 1.2e+00 | time :   6.363
+  - ALS             | error (trn/tst) : 2.4e-04 / 2.7e-04 | time :   6.396
+  - ALS             | error (trn/tst) : 8.5e-01 / 1.3e+00 | time :   6.536
+  - ALS             | error (trn/tst) : 8.5e-01 / 1.2e+00 | time :   6.384
+  - ALS             | error (trn/tst) : 8.5e-01 / 1.2e+00 | time :   6.153
+  - ALS             | error (trn/tst) : 8.5e-01 / 1.2e+00 | time :   6.376
+  - ALS             | error (trn/tst) : 2.4e-04 / 2.7e-04 | time :   5.367
+  - ALS             | error (trn/tst) : 8.5e-01 / 1.2e+00 | time :   5.977
+  - ALS             | error (trn/tst) : 8.5e-01 / 1.2e+00 | time :   5.968
+  - ALS             | error (trn/tst) : 8.5e-01 / 1.2e+00 | time :   6.010
+  - ALS (* mean)    | error (trn/tst) : 6.8e-01 / 9.9e-01 | time :   6.153
+  - ANO             | error (trn/tst) : 3.9e-02 / 4.0e-02 | time :   0.006
+  - ANO-ALS         | error (trn/tst) : 2.4e-04 / 2.7e-04 | time :   3.609
+Schwefel            > 
+  - ALS             | error (trn/tst) : 8.3e-01 / 1.3e+00 | time :   6.285
+  - ALS             | error (trn/tst) : 8.3e-01 / 1.5e+00 | time :   5.997
+  - ALS             | error (trn/tst) : 8.3e-01 / 1.5e+00 | time :   6.180
+  - ALS             | error (trn/tst) : 2.4e-09 / 4.2e-08 | time :   2.175
+  - ALS             | error (trn/tst) : 8.3e-01 / 1.4e+00 | time :   6.284
+  - ALS             | error (trn/tst) : 1.7e-10 / 4.1e-09 | time :   3.723
+  - ALS             | error (trn/tst) : 8.3e-01 / 1.5e+00 | time :   6.484
+  - ALS             | error (trn/tst) : 8.3e-01 / 1.4e+00 | time :   6.414
+  - ALS             | error (trn/tst) : 8.3e-01 / 1.5e+00 | time :   6.376
+  - ALS             | error (trn/tst) : 8.3e-01 / 1.5e+00 | time :   6.482
+  - ALS (* mean)    | error (trn/tst) : 6.6e-01 / 1.2e+00 | time :   5.640
+  - ANO             | error (trn/tst) : 1.3e-02 / 1.3e-02 | time :   0.006
+  - ANO-ALS         | error (trn/tst) : 5.0e-09 / 1.6e-08 | time :   1.320
+PDE-VOI             > 
+  - ALS             | error (trn/tst) : 8.0e-01 / 1.4e+00 | time :   7.944
+  - ALS             | error (trn/tst) : 8.0e-01 / 1.5e+00 | time :   8.078
+  - ALS             | error (trn/tst) : 8.0e-01 / 1.5e+00 | time :   8.288
+  - ALS             | error (trn/tst) : 8.1e-01 / 1.5e+00 | time :   8.454
+  - ALS             | error (trn/tst) : 8.1e-01 / 1.5e+00 | time :   8.330
+  - ALS             | error (trn/tst) : 8.0e-01 / 1.5e+00 | time :   7.772
+  - ALS             | error (trn/tst) : 8.0e-01 / 1.4e+00 | time :   7.719
+  - ALS             | error (trn/tst) : 8.1e-01 / 1.4e+00 | time :   8.069
+  - ALS             | error (trn/tst) : 8.0e-01 / 1.4e+00 | time :   8.344
+  - ALS             | error (trn/tst) : 8.0e-01 / 1.4e+00 | time :   8.437
+  - ALS (* mean)    | error (trn/tst) : 8.0e-01 / 1.4e+00 | time :   8.143
+  - ANO             | error (trn/tst) : 3.3e-03 / 3.4e-03 | time :   0.009
+  - ANO-ALS         | error (trn/tst) : 1.0e-05 / 1.4e-05 | time :   6.209
+
+
+======================================================================
+Latex code for table : 
+
+
+\multirow{2}{*}{Ackley}
+& Train & 1.3e-02 & 5.1e-01 & 2.6e-04 \\ 
+& Test  & 1.1e-02 & 7.4e-01 & 2.5e-03 \\ \hline
+\multirow{2}{*}{Alpine}
+& Train & 2.1e-02 & 8.0e-01 & 1.5e-08 \\ 
+& Test  & 2.1e-02 & 1.8e+00 & 1.6e-07 \\ \hline
+\multirow{2}{*}{Dixon}
+& Train & 4.7e-02 & 6.5e-01 & 3.0e-08 \\ 
+& Test  & 4.7e-02 & 2.9e+00 & 1.9e-06 \\ \hline
+\multirow{2}{*}{Exponential}
+& Train & 1.3e-01 & 6.6e-01 & 5.2e-10 \\ 
+& Test  & 1.3e-01 & 2.1e+00 & 1.9e-09 \\ \hline
+\multirow{2}{*}{Grienwank}
+& Train & 2.0e-02 & 7.1e-01 & 1.1e-04 \\ 
+& Test  & 2.0e-02 & 2.0e+00 & 3.9e-04 \\ \hline
+\multirow{2}{*}{Michalewicz}
+& Train & 3.9e-02 & 6.6e-01 & 2.6e-08 \\ 
+& Test  & 4.0e-02 & 5.9e+00 & 2.7e-06 \\ \hline
+\multirow{2}{*}{Piston}
+& Train & 9.3e-02 & 7.1e-01 & 9.6e-04 \\ 
+& Test  & 9.4e-02 & 1.6e+00 & 1.6e-03 \\ \hline
+\multirow{2}{*}{Qing}
+& Train & 1.5e+01 & 7.4e-01 & 1.2e-08 \\ 
+& Test  & 1.4e+01 & 3.4e+00 & 5.7e-05 \\ \hline
+\multirow{2}{*}{Rastrigin}
+& Train & 7.9e-03 & 8.4e-01 & 2.6e-09 \\ 
+& Test  & 8.1e-03 & 1.3e+00 & 2.1e-08 \\ \hline
+\multirow{2}{*}{Rosenbrock}
+& Train & 2.0e-01 & 7.2e-01 & 1.1e-07 \\ 
+& Test  & 2.0e-01 & 4.3e+00 & 2.3e-05 \\ \hline
+\multirow{2}{*}{Schaffer}
+& Train & 3.9e-02 & 6.8e-01 & 2.4e-04 \\ 
+& Test  & 4.0e-02 & 9.9e-01 & 2.7e-04 \\ \hline
+\multirow{2}{*}{Schwefel}
+& Train & 1.3e-02 & 6.6e-01 & 5.0e-09 \\ 
+& Test  & 1.3e-02 & 1.2e+00 & 1.6e-08 \\ \hline
+\multirow{2}{*}{PDE-VOI}
+& Train & 3.3e-03 & 8.0e-01 & 1.0e-05 \\ 
+& Test  & 3.4e-03 & 1.4e+00 & 1.4e-05 \\ \hline
