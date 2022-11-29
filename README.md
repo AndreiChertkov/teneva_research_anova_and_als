@@ -33,11 +33,12 @@ Numerical experiments for **TT-ANOVA** and **TT-ALS** methods from [teneva](http
     - `data` - generate and save train/test data for benchmark functions
     - `data_pde` - generate and save train/test data for parametric PDE
     - `appr` - build approximation from the saved data for benchmark functions and parametric PDE
-    - `appr_noise` (build approximation from the saved data with automatically added noise).
+    - `appr_noise` - build approximation from the saved data with automatically added noise
+    - `appr_check` - check dependence of the approximation accuracy vs rank, number of sweeps, etc
 
     > The results and logs will be saved into `result` folder
 
-    > Note that computation options are set in `opts.py` script.
+    > Note that computation options are set in `opts.py` script
 
     > You can also optionally run the script `python pde/demo_solve.py` with demonstration of the PDE solver work
 
@@ -48,6 +49,8 @@ Numerical experiments for **TT-ANOVA** and **TT-ALS** methods from [teneva](http
 
 
 ## Usage with docker
+
+> This was used in some numerical experiments on linux server
 
 1. Configure and run docker with `fenics`:
     1. ... (use curl command from site `https://fenicsproject.org/download/`)
@@ -66,7 +69,7 @@ Numerical experiments for **TT-ANOVA** and **TT-ALS** methods from [teneva](http
     3. `cmake ..`
     4. `make`
     5. `cd ./../../`
-4. Run the script `python3 calc.py FLAG docker` (possible flag values have been described above; the 2th argument must be specified only if the calculation is performed from `docker`).
+4. Run the script `python3 calc.py FLAG docker` (possible flag values have been described above; the 2th argument must be specified only if the calculation is performed from `docker`)
 
 
 ## Authors
