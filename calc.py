@@ -129,7 +129,7 @@ def run_appr_check(opts, name=None):
         for nswp in opts.nswp_check:
             t_als_rnd = []
             e_als_rnd = []
-            for rep in range(opts.reps):
+            for rep in range(opts.reps_check):
                 func.clear()
                 func.rand(r=r)
                 func.als(nswp=nswp)
@@ -166,7 +166,7 @@ def run_appr_check_all(opts):
         run_appr_check(opts, name)
 
 
-def run_appr_check_show(opts, name=None, r_draw=5, s_draw=100):
+def run_appr_check_show(opts, name=None):
     """Demonstrate the result of the "run_appr_check" function."""
     name = name or opts.name_check
 

@@ -65,6 +65,7 @@ class Opts:
         # Number of repetitions of calculations with a random initial
         # approximation (the result is then averaged):
         self.reps = 10
+        self.reps_check = 100
 
         # Print ALS log to console:
         self.with_log = False
