@@ -1,4 +1,10 @@
-import fenics
+try:
+    import fenics
+    WITH_FENICS = True
+except Exception as e:
+    WITH_FENICS = False
+
+
 import subprocess
 
 

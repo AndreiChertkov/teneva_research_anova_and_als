@@ -22,7 +22,7 @@ Numerical experiments for **TT-ANOVA** and **TT-ALS** methods from [teneva](http
 
 4. Install all required dependencies:
     ```bash
-    pip install numpy gmsh teneva==0.9.16
+    pip install numpy scipy matplotlib seaborn gmsh teneva==0.12.6
     ```
 
 5. Run the script:
@@ -34,7 +34,7 @@ Numerical experiments for **TT-ANOVA** and **TT-ALS** methods from [teneva](http
     - `data_pde` - generate and save train/test data for parametric PDE
     - `appr` - build approximation from the saved data for benchmark functions and parametric PDE
     - `appr_noise` - build approximation from the saved data with automatically added noise
-    - `appr_check` - check dependence of the approximation accuracy vs rank, number of sweeps, etc
+    - `appr_check_all` - check dependence of the approximation accuracy vs rank, number of sweeps, etc. (run then the script with the flag `appr_check_show_all` to generate the plots with results).
 
     > The results and logs will be saved into `result` folder
 

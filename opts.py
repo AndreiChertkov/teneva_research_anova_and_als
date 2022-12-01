@@ -16,9 +16,15 @@ class Opts:
         folder_ensure(f'{self.fold}')
         folder_ensure(f'{self.fold}/logs')
         folder_ensure(f'{self.fold}/data')
+        folder_ensure(f'{self.fold}/plot')
+        folder_ensure(f'{self.fold}/res')
 
         # The path to gmsh executable file:
         self.gmsh_path = gmsh_path
+
+        # The function for check result:
+        self.name_check = 'Piston'
+        self.names_check = ['Dixon', 'PDE-VOI', 'Piston']
 
         # Dimension of the function input:
         self.d = d
@@ -34,9 +40,11 @@ class Opts:
 
         # TT-rank:
         self.r = 5
+        self.r_check = [2, 3, 4, 5, 6, 7, 8, 9, 10]
 
         # Number of TT-ALS sweeps (iterations):
         self.nswp = 50
+        self.nswp_check = [1, 2, 5, 10, 50, 100]
 
         # Noise for TT-cores in TT-ANOVA:
         self.noise_ano = 1.E-10
@@ -64,17 +72,47 @@ class Opts:
     def get_fpath(self, func, kind='trn_ind'):
         return f'{self.fold}/data/{func.name}_{kind}.npz'
 
-    def info(self):
+    def get_func(self, name):
+        for func in self.funcs_appr:
+            if func.name == name:
+                return func
+
+    def get_func_names(self):
+        funcs = teneva.func_demo_all(self.d, with_piston=True)
+        names = [func.name for func in funcs]
+        names.append('PDE-VOI')
+        return names
+
+    def info(self, is_check=False, name=None):
         text = '\n' + '-' * 74 + '\n'
+
+        if is_check:
+            text += f'Function        = {name or self.name_check}\n'
+
         text += f'Dimension       = {self.d:-8.0f}  \n'
+
         text += f'Samples train   = {self.m_trn:-8.1e}  \n'
+
         text += f'Samples test    = {self.m_tst:-8.1e}  \n'
+
         text += f'Grid size       = {self.n:-8.0f}      \n'
-        text += f'TT-rank         = {self.r:-8.0f}      \n'
-        text += f'ALS sweeps      = {self.nswp:-8.0f}   \n'
+
+        if is_check:
+            text += f'TT-ranks        = {self.r_check}\n'
+        else:
+            text += f'TT-rank         = {self.r:-8.0f}      \n'
+
+        if is_check:
+            text += f'ALS sweeps      = {self.nswp_check}\n'
+        else:
+            text += f'ALS sweeps      = {self.nswp:-8.0f}   \n'
+
         text += f'ANO order       = {self.order:-8.0f}  \n'
+
         text += f'ANO noise       = {self.noise_ano:-8.1e}  \n'
+
         text += '-' * 74 + '\n' + '\n'
+
         return text
 
     def prep_funcs(self):
