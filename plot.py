@@ -41,6 +41,16 @@ def plot_check(data, name, r_list=None, s_list=None, fpath=None):
     ax2.set_xlabel('Number of iterations')
     ax2.set_ylabel('Error')
 
+    if name == 'Dixon':
+        ax1.set_ylim(6.E-10, 2.E+1)
+        ax2.set_ylim(6.E-10, 2.E+1)
+    elif name == 'Piston':
+        ax1.set_ylim(1.E-3, 3.E+0)
+        ax2.set_ylim(1.E-3, 3.E+0)
+    elif name == 'PDE-VOI':
+        ax1.set_ylim(5.E-6, 3.E+0)
+        ax2.set_ylim(5.E-6, 3.E+0)
+
     for i, r in enumerate(r_list):
         label = f'r = {r}'
 
