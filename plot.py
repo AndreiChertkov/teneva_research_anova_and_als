@@ -1,7 +1,6 @@
 import matplotlib as mpl
 import numpy as np
 import pickle
-from scipy.stats import t as stats
 
 
 mpl.rcParams.update({
@@ -54,19 +53,21 @@ def plot_check(data, name, r_list=None, s_list=None, fpath=None):
             e_als_rnd_avg.append(np.mean(e))
             e_als_rnd_min.append(np.min(e))
             e_als_rnd_max.append(np.max(e))
-            continue
 
-            k = len(e)
-            m = np.mean(e)
-            v = np.mean(e**2) - np.mean(e)**2
-            e1 = np.sqrt(v/k) * stats.interval(0.95, k)[0]
-            e2 = np.sqrt(v/k) * stats.interval(0.95, k)[1]
-            e_als_rnd_min.append(m - e1)
-            e_als_rnd_max.append(m - e2)
+            if False:
+                from scipy.stats import t as stats
+                k = len(e)
+                m = np.mean(e)
+                v = np.mean(e**2) - np.mean(e)**2
+                e1 = np.sqrt(v/k) * stats.interval(0.95, k)[0]
+                e2 = np.sqrt(v/k) * stats.interval(0.95, k)[1]
+                e_als_rnd_min.append(m - e1)
+                e_als_rnd_max.append(m - e2)
 
-        # e_als_rnd_var = [np.quantile(e, 0.95) for e in e_als_rnd]
-        # e_als_rnd_min = np.array(e_als_rnd_avg) - np.array(e_als_rnd_var)
-        # e_als_rnd_max = np.array(e_als_rnd_avg) + np.array(e_als_rnd_var)
+        if False:
+            e_als_rnd_var = [np.quantile(e, 0.95) for e in e_als_rnd]
+            e_als_rnd_min = np.array(e_als_rnd_avg) - np.array(e_als_rnd_var)
+            e_als_rnd_max = np.array(e_als_rnd_avg) + np.array(e_als_rnd_var)
 
         ax1.plot(s_list, e_als_rnd_avg, label=label,
             marker=marker[i], markersize=8, linewidth=3, color=colors[i])
