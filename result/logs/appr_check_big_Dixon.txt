@@ -1,0 +1,46 @@
+
+--------------------------------------------------------------------------
+Function        = Dixon
+Dimension       =        7
+Samples train   =  1.0e+04
+Samples test    =  1.0e+04
+Grid size       =       10
+TT-ranks        = [2, 3, 4, 5, 6, 7, 8, 9, 10]
+ALS sweeps      = [1, 2, 5, 10, 50, 100]
+ANO order       =        1
+ANO noise       = 1.0e-100 
+--------------------------------------------------------------------------
+
+
+r: 4 | nswp:    1 | e_als_ano = 2.1e-02 | t =   0.055
+r: 4 | nswp:    2 | e_als_ano = 2.1e-02 | t =   0.098
+r: 4 | nswp:    5 | e_als_ano = 1.2e-01 | t =   0.230
+r: 4 | nswp:   10 | e_als_ano = 4.9e-02 | t =   0.456
+r: 4 | nswp:   50 | e_als_ano = 1.2e-01 | t =   2.270
+r: 4 | nswp:  100 | e_als_ano = 1.4e-03 | t =   4.974
+r: 4 | nswp:  250 | e_als_ano = 2.3e-04 | t =  11.650
+r: 4 | nswp:  500 | e_als_ano = 1.6e-04 | t =  22.685
+r: 4 | nswp:  750 | e_als_ano = 8.7e-05 | t =  33.884
+r: 4 | nswp: 1000 | e_als_ano = 4.5e-05 | t =  45.340
+
+r: 6 | nswp:    1 | e_als_ano = 2.1e-02 | t =   0.095
+r: 6 | nswp:    2 | e_als_ano = 2.1e-02 | t =   0.201
+r: 6 | nswp:    5 | e_als_ano = 1.4e-01 | t =   0.531
+r: 6 | nswp:   10 | e_als_ano = 7.4e-02 | t =   1.084
+r: 6 | nswp:   50 | e_als_ano = 2.8e-03 | t =   6.247
+r: 6 | nswp:  100 | e_als_ano = 7.3e-13 | t =  12.160
+r: 6 | nswp:  250 | e_als_ano = 4.8e-13 | t =  29.763
+r: 6 | nswp:  500 | e_als_ano = 6.4e-14 | t =  59.348
+r: 6 | nswp:  750 | e_als_ano = 4.0e-14 | t =  89.704
+r: 6 | nswp: 1000 | e_als_ano = 1.5e-14 | t = 119.900
+
+r: 8 | nswp:    1 | e_als_ano = 2.1e-02 | t =   0.168
+r: 8 | nswp:    2 | e_als_ano = 2.1e-02 | t =   0.325
+r: 8 | nswp:    5 | e_als_ano = 3.0e-01 | t =   1.030
+r: 8 | nswp:   10 | e_als_ano = 8.8e-03 | t =   1.709
+r: 8 | nswp:   50 | e_als_ano = 1.1e-06 | t =   9.667
+r: 8 | nswp:  100 | e_als_ano = 1.3e-10 | t =  18.811
+r: 8 | nswp:  250 | e_als_ano = 4.6e-11 | t =  46.488
+r: 8 | nswp:  500 | e_als_ano = 2.0e-14 | t =  92.945
+r: 8 | nswp:  750 | e_als_ano = 2.2e-15 | t = 141.960
+r: 8 | nswp: 1000 | e_als_ano = 3.1e-15 | t = 198.966
