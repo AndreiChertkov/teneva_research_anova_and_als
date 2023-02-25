@@ -98,6 +98,34 @@ def plot_check(data, name, r_list=None, s_list=None, fpath=None):
         plt.show()
 
 
+def plot_check_big(data, r_list, s_list, fpath=None):
+    colors = ['#00B454', '#FFF800', '#FFB300']
+    marker = ['s', '*', 'D']
+
+    fig, axs = plt.subplots(1, 3, figsize=(24, 8))
+    plt.subplots_adjust(wspace=0.3)
+
+    for ax, (name, res) in zip(axs, data.items()):
+        ax.set_xlabel('Number of iterations')
+        ax.set_ylabel('Error')
+        ax.set_title(f'ANOVA-ALS for {name}')
+
+        for i, r in enumerate(r_list):
+            label = f'r = {r}'
+
+            e_als_ano = [res[r][s]['e_als_ano'] for s in s_list]
+
+            ax.plot(s_list, e_als_ano, label=label,
+                marker=marker[i], markersize=8, linewidth=3, color=colors[i])
+
+        prep_ax(ax, xlog=True, ylog=True, leg=True)
+
+    if fpath:
+        plt.savefig(fpath, bbox_inches='tight')
+    else:
+        plt.show()
+
+
 def prep_ax(ax, xlog=False, ylog=False, leg=False, xint=False, xticks=None):
     if xlog:
         ax.semilogx()
