@@ -1,5 +1,6 @@
 import numpy as np
 import sys
+import teneva
 
 
 from opts import Opts
@@ -126,6 +127,10 @@ def run_appr_check(opts, name=None):
     res = {}
     for r in opts.r_check:
         res[r] = {}
+
+        func.anova(r=r, order=opts.order, noise=opts.noise_ano)
+        Y = teneva.copy(func.Y)
+
         for nswp in opts.nswp_check:
             t_als_rnd = []
             e_als_rnd = []
@@ -137,8 +142,8 @@ def run_appr_check(opts, name=None):
                 e_als_rnd.append(func.check_tst_ind())
 
             func.clear()
-            func.anova(r=r, order=opts.order, noise=opts.noise_ano)
-            func.als(nswp=nswp)
+            func.prep(Y)
+            func.als(nswp=nswp, e=None)
             t_als_ano = func.t
             e_als_ano = func.check_tst_ind()
 
@@ -191,7 +196,6 @@ def run_appr_check_show(opts, name=None):
             text += f'e_als_ano : {e_als_ano:-7.1e} | '
             print(text)
 
-    r_list = [2, 4, 6, 8, 10]
     plot_check(res, name, r_list, fpath=opts.fold + f'/plot/{name}.png')
 
 

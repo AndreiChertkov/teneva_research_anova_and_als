@@ -40,14 +40,15 @@ class Opts:
 
         # TT-rank:
         self.r = 5
-        self.r_check = [2, 3, 4, 5, 6, 7, 8, 9, 10]
+        self.r_check = [2, 4, 6, 8, 10]
 
         # Number of TT-ALS sweeps (iterations):
         self.nswp = 50
         self.nswp_check = [1, 2, 5, 10, 50, 100]
+        self.nswp_check_big = [1, 2, 5, 10, 50, 100, 250, 500, 750, 1000]
 
         # Noise for TT-cores in TT-ANOVA:
-        self.noise_ano = 1.E-10
+        self.noise_ano = 1.E-100
 
         # Order of ANOVA decomposition:
         self.order = 1
