@@ -5,64 +5,40 @@ Dimension       =        7
 Samples train   =  1.0e+04  
 Samples test    =  1.0e+04  
 Grid size       =       10      
-TT-ranks        = [2, 3, 4, 5, 6, 7, 8, 9, 10]
+TT-ranks        = [2, 4, 6, 8, 10]
 ALS sweeps      = [1, 2, 5, 10, 50, 100]
 ANO order       =        1  
-ANO noise       =  1.0e-10  
+ANO noise       = 1.0e-100  
 --------------------------------------------------------------------------
 
 
 r: 2 | nswp:   1 | e_als_rnd = 1.0e+00 | e_als_ano = 2.2e-02 | 
 r: 2 | nswp:   2 | e_als_rnd = 1.0e+00 | e_als_ano = 1.8e-02 | 
 r: 2 | nswp:   5 | e_als_rnd = 1.1e+00 | e_als_ano = 1.8e-02 | 
-r: 2 | nswp:  10 | e_als_rnd = 1.0e+00 | e_als_ano = 1.8e-02 | 
-r: 2 | nswp:  50 | e_als_rnd = 1.2e+00 | e_als_ano = 1.8e-02 | 
-r: 2 | nswp: 100 | e_als_rnd = 1.4e+00 | e_als_ano = 1.8e-02 | 
-r: 3 | nswp:   1 | e_als_rnd = 1.0e+00 | e_als_ano = 2.2e-02 | 
-r: 3 | nswp:   2 | e_als_rnd = 1.1e+00 | e_als_ano = 1.1e-02 | 
-r: 3 | nswp:   5 | e_als_rnd = 1.1e+00 | e_als_ano = 1.4e-02 | 
-r: 3 | nswp:  10 | e_als_rnd = 1.1e+00 | e_als_ano = 1.1e-02 | 
-r: 3 | nswp:  50 | e_als_rnd = 1.4e+00 | e_als_ano = 1.0e-02 | 
-r: 3 | nswp: 100 | e_als_rnd = 1.5e+00 | e_als_ano = 1.0e-02 | 
-r: 4 | nswp:   1 | e_als_rnd = 1.1e+00 | e_als_ano = 2.1e-02 | 
-r: 4 | nswp:   2 | e_als_rnd = 1.1e+00 | e_als_ano = 7.1e-03 | 
-r: 4 | nswp:   5 | e_als_rnd = 1.2e+00 | e_als_ano = 1.2e-02 | 
-r: 4 | nswp:  10 | e_als_rnd = 1.2e+00 | e_als_ano = 4.7e-03 | 
-r: 4 | nswp:  50 | e_als_rnd = 1.5e+00 | e_als_ano = 3.8e-03 | 
-r: 4 | nswp: 100 | e_als_rnd = 1.7e+00 | e_als_ano = 3.4e-03 | 
-r: 5 | nswp:   1 | e_als_rnd = 1.1e+00 | e_als_ano = 2.3e-02 | 
-r: 5 | nswp:   2 | e_als_rnd = 1.2e+00 | e_als_ano = 1.1e-02 | 
-r: 5 | nswp:   5 | e_als_rnd = 1.3e+00 | e_als_ano = 5.0e-03 | 
-r: 5 | nswp:  10 | e_als_rnd = 1.4e+00 | e_als_ano = 3.1e-03 | 
-r: 5 | nswp:  50 | e_als_rnd = 1.6e+00 | e_als_ano = 1.8e-03 | 
-r: 5 | nswp: 100 | e_als_rnd = 1.8e+00 | e_als_ano = 2.1e-03 | 
+r: 2 | nswp:  10 | e_als_rnd = 1.1e+00 | e_als_ano = 1.8e-02 | 
+r: 2 | nswp:  50 | e_als_rnd = 1.3e+00 | e_als_ano = 1.8e-02 | 
+r: 2 | nswp: 100 | e_als_rnd = 1.3e+00 | e_als_ano = 1.8e-02 | 
+r: 4 | nswp:   1 | e_als_rnd = 1.1e+00 | e_als_ano = 2.2e-02 | 
+r: 4 | nswp:   2 | e_als_rnd = 1.1e+00 | e_als_ano = 1.8e-02 | 
+r: 4 | nswp:   5 | e_als_rnd = 1.2e+00 | e_als_ano = 1.8e-02 | 
+r: 4 | nswp:  10 | e_als_rnd = 1.2e+00 | e_als_ano = 1.8e-02 | 
+r: 4 | nswp:  50 | e_als_rnd = 1.5e+00 | e_als_ano = 3.2e-03 | 
+r: 4 | nswp: 100 | e_als_rnd = 1.6e+00 | e_als_ano = 3.7e-03 | 
 r: 6 | nswp:   1 | e_als_rnd = 1.1e+00 | e_als_ano = 2.2e-02 | 
-r: 6 | nswp:   2 | e_als_rnd = 1.2e+00 | e_als_ano = 9.4e-03 | 
-r: 6 | nswp:   5 | e_als_rnd = 1.3e+00 | e_als_ano = 5.0e-03 | 
-r: 6 | nswp:  10 | e_als_rnd = 1.5e+00 | e_als_ano = 4.4e-03 | 
-r: 6 | nswp:  50 | e_als_rnd = 1.7e+00 | e_als_ano = 2.6e-03 | 
-r: 6 | nswp: 100 | e_als_rnd = 2.0e+00 | e_als_ano = 2.2e-03 | 
-r: 7 | nswp:   1 | e_als_rnd = 1.2e+00 | e_als_ano = 2.5e-02 | 
-r: 7 | nswp:   2 | e_als_rnd = 1.3e+00 | e_als_ano = 1.2e-02 | 
-r: 7 | nswp:   5 | e_als_rnd = 1.4e+00 | e_als_ano = 8.1e-03 | 
-r: 7 | nswp:  10 | e_als_rnd = 1.6e+00 | e_als_ano = 8.6e-03 | 
-r: 7 | nswp:  50 | e_als_rnd = 1.9e+00 | e_als_ano = 2.7e-03 | 
-r: 7 | nswp: 100 | e_als_rnd = 2.2e+00 | e_als_ano = 1.5e-03 | 
-r: 8 | nswp:   1 | e_als_rnd = 1.2e+00 | e_als_ano = 2.4e-02 | 
-r: 8 | nswp:   2 | e_als_rnd = 1.3e+00 | e_als_ano = 1.4e-02 | 
-r: 8 | nswp:   5 | e_als_rnd = 1.5e+00 | e_als_ano = 1.4e-02 | 
-r: 8 | nswp:  10 | e_als_rnd = 1.6e+00 | e_als_ano = 9.6e-03 | 
-r: 8 | nswp:  50 | e_als_rnd = 2.0e+00 | e_als_ano = 5.2e-03 | 
-r: 8 | nswp: 100 | e_als_rnd = 2.4e+00 | e_als_ano = 3.1e-03 | 
-r: 9 | nswp:   1 | e_als_rnd = 1.3e+00 | e_als_ano = 2.3e-02 | 
-r: 9 | nswp:   2 | e_als_rnd = 1.4e+00 | e_als_ano = 1.6e-02 | 
-r: 9 | nswp:   5 | e_als_rnd = 1.6e+00 | e_als_ano = 1.6e-02 | 
-r: 9 | nswp:  10 | e_als_rnd = 1.8e+00 | e_als_ano = 1.6e-02 | 
-r: 9 | nswp:  50 | e_als_rnd = 2.3e+00 | e_als_ano = 1.2e-02 | 
-r: 9 | nswp: 100 | e_als_rnd = 2.5e+00 | e_als_ano = 1.2e-02 | 
-r: 10 | nswp:   1 | e_als_rnd = 1.3e+00 | e_als_ano = 2.0e-02 | 
-r: 10 | nswp:   2 | e_als_rnd = 1.5e+00 | e_als_ano = 2.0e-02 | 
-r: 10 | nswp:   5 | e_als_rnd = 1.7e+00 | e_als_ano = 1.5e-02 | 
-r: 10 | nswp:  10 | e_als_rnd = 1.9e+00 | e_als_ano = 1.6e-02 | 
-r: 10 | nswp:  50 | e_als_rnd = 2.4e+00 | e_als_ano = 2.3e-02 | 
-r: 10 | nswp: 100 | e_als_rnd = 2.7e+00 | e_als_ano = 1.9e-02 | 
+r: 6 | nswp:   2 | e_als_rnd = 1.2e+00 | e_als_ano = 1.8e-02 | 
+r: 6 | nswp:   5 | e_als_rnd = 1.3e+00 | e_als_ano = 1.8e-02 | 
+r: 6 | nswp:  10 | e_als_rnd = 1.5e+00 | e_als_ano = 1.8e-02 | 
+r: 6 | nswp:  50 | e_als_rnd = 1.7e+00 | e_als_ano = 1.6e-03 | 
+r: 6 | nswp: 100 | e_als_rnd = 1.9e+00 | e_als_ano = 1.4e-03 | 
+r: 8 | nswp:   1 | e_als_rnd = 1.2e+00 | e_als_ano = 2.2e-02 | 
+r: 8 | nswp:   2 | e_als_rnd = 1.3e+00 | e_als_ano = 1.8e-02 | 
+r: 8 | nswp:   5 | e_als_rnd = 1.5e+00 | e_als_ano = 1.8e-02 | 
+r: 8 | nswp:  10 | e_als_rnd = 1.6e+00 | e_als_ano = 1.8e-02 | 
+r: 8 | nswp:  50 | e_als_rnd = 2.1e+00 | e_als_ano = 5.1e-03 | 
+r: 8 | nswp: 100 | e_als_rnd = 2.4e+00 | e_als_ano = 1.3e-03 | 
+r: 10 | nswp:   1 | e_als_rnd = 1.3e+00 | e_als_ano = 2.2e-02 | 
+r: 10 | nswp:   2 | e_als_rnd = 1.5e+00 | e_als_ano = 1.8e-02 | 
+r: 10 | nswp:   5 | e_als_rnd = 1.7e+00 | e_als_ano = 1.8e-02 | 
+r: 10 | nswp:  10 | e_als_rnd = 1.9e+00 | e_als_ano = 1.8e-02 | 
+r: 10 | nswp:  50 | e_als_rnd = 2.3e+00 | e_als_ano = 5.2e-02 | 
+r: 10 | nswp: 100 | e_als_rnd = 2.7e+00 | e_als_ano = 6.4e-02 | 
